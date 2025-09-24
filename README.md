@@ -15,7 +15,7 @@ En el navbar vamos a crear un menú de navegación con enlaces a las secciones c
 
 Después tiene las Imagen personalizado "Tienda Mate" y el logo: 
 
-![Navbar](https://i.postimg.cc/tg0DZN7G/1.png)
+![Navbar](https://i.postimg.cc/Prxxp7NB/1.png)
 
 ### 2 – Carrusel de imágenes y Pie de pagina
 
@@ -37,7 +37,7 @@ Ahora vamos a mostrar las categorías de productos en tarjetas (cards) o Pestañ
 
 En las tarjetas de productos puedes incluir un modal para mostrar más detalles, ej: Imagen, precio y compra cuando el usuario haga clic en un producto.
 
-![Productos](https://i.postimg.cc/cHdQNDkT/5.png)
+![Productos](https://i.postimg.cc/FRcXMjWF/5.png)
 
 ### 5 – Formulario de Contacto
 
