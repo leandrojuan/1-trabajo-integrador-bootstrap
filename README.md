@@ -25,13 +25,13 @@ Para el carrusel de imágenes puedes usar el componente carrusel de Bootstrap. A
 
 Y finalmente el Footer (Pie de página) "Tienda Mate" y con los enlaces a las redes sociales:
 
-![Pie de Pagina](https://i.postimg.cc/D0ymxHpk/3.png)
+![Pie de Pagina](https://i.postimg.cc/RhqWBpt5/3.png)
 
 ### 3 – Card de Categorías
 
 Ahora vamos a mostrar las categorías de productos en tarjetas (cards) o Pestañas. Muy usadas en páginas web o aplicaciones para organizar información en secciones separadas. Permiten manejar la navegación de productos.
 
-![Categorias](https://i.postimg.cc/zDScW61D/4.png)
+![Categorias](https://i.postimg.cc/RVgzfC2R/4.png)
 
 ### 4 – Card de Productos con Modal (Desplazar)
 
