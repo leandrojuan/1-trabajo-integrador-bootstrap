@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="img/png" href="img/logo.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"
+    />
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Tienda Mate</title>
+  </head>
+  <body>
+    <section id="#">
+      <!-- Bootstrap HTML - Navbar -->
+      <nav class="navbar navbar-expand-lg border-bottom border-body">
+        <div class="logoImg">
+          <!-- Personalizado - Imagen -->
+          <h2><img src="img/mate.png" alt="" /></h2>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" 
+          data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+          aria-label="Toggle navigation" >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="/index.html" >Inicio <span class="sr-only"></span ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/#acerca">Quienes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/categorias.html">Categorias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contactos.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+
+<!-- Bootstrap HTML - Carousel -->
+    <div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="w-100" src="img/img1.jpg" alt="First slide" />
+          </div>
+          <div class="carousel-item">
+            <img class="w-100" src="img/img2.jpg" alt="Second slide" />
+          </div>
+          <div class="carousel-item">
+            <img class="w-100" src="img/img3.jpg" alt="third slide" />
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+      </div>
+      <!-- Fin HTML - Carousel -->
+
+      <br />
+      <!-- Quienes Somos -->
+      <section class="text-center" id="acerca">
+        <h2><a class="nav-link link" href="/acerca">Quienes Somos</a></h2>
+        <div class="container">
+          <div class="content">
+            <p>
+              Tienda Mate nace de las ganas de querer acercarle a los Materos, insumos característicos de la cultura Argentina, 
+              priorizando la calidad y el precio. Somos una familia matera, que se encarga de
+              brindarte los mejores insumos Materos para todas tus necesidades.
+              Nos caracterizamos por tener buena calidad en nuestros productos y muy buena atención. Nos enfocamos en los detalles 
+              y en la atención personalizada para poder brindar un servicio cálido y eficiente.
+              En Tienda Mate no solo ofrecemos insumos materos sino también productos que conllevan historias, leyendas, buenos momentos y
+              costumbres de nuestros pasado, presente y futuro. Tienda Mate nace de las ganas de querer acercarle a los Materos, insumos
+              característicos de la cultura Argentina, priorizando la calidad y el precio. Somos una familia matera, que se encarga de brindarte
+              los mejores insumos Materos para todas tus necesidades. Nos caracterizamos por tener buena calidad en nuestros productos y muy
+              buena atención. Nos enfocamos en los detalles y en la atención personalizada para poder brindar un servicio cálido y eficiente.
+            </p>
+            <h3>Nuestra Misión</h3>
+            <p>
+              Somos un equipo que crea, acerca y acompaña tu elección, para
+              generar buenos momentos.
+            </p>
+            <h3>Nuestra Visión</h3>
+            <p>
+              Somos una empresa comprometida a innovar costumbres argentinas con
+              originalidad, derribando fronteras. Enfocada en un liderazgo de
+              triple impacto.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Fin HTML - Quienes Somos -->
+
+
+<!-- Bootstrap HTML - Pie de Pagina -->
+    <footer class="bg-dark text-white py-4 text-center">
+      <div class="container">
+        <div class="row">
+          <ul class="col list-unstyled">
+            <li class="font-weight-bold textuppercase">Tienda Mate</li>
+            <li><a href="index.html" class="color">Inicio</a></li> <!-- Personalizado - color -->
+            <li><a href="index.html" class="color">Quienes Somos</a></li>
+            <li><a href="categorias.html" class="color">Categorias</a></li>
+            <li><a href="productos.html" class="color">Productos</a></li>
+            <li><a href="contactos.html" class="color">Contacto</a></li>
+          </ul>
+
+          <ul class="col list-unstyled">
+            <li class="font-weight-bold text-uppercase">Contacto</li>
+            <li>+54 9 11 1234 5678</li>
+            <li></li>
+          </ul>
+
+          <ul class="col list-unstyled">
+            <li class="font-weight-bold textuppercase">Redes Sociales</li>
+            <li class="d-flex justify-content-between py-4">
+              <a href="https://www.facebook.com/" title="Facebook" ><i class="fa-brands fa-facebook"></i ></a>
+              <a href="https://ar.pinterest.com/" title="Pinterest" ><i class="fa-brands fa-pinterest"></i ></a>
+              <a href="https://www.instagram.com/" title="Instagram" ><i class="fa-brands fa-instagram"></i ></a>
+              <a href="https://ar.linkedin.com/" title="LinkedIn" ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- Fin HTML - Pie de Pagina -->
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

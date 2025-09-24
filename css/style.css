@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: linear-gradient(90deg, #243e44, #4a717c);
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  margin: 0 auto;
+  padding: 20px;
+}
+.link {
+  color: mediumaquamarine;
+  text-decoration: none;
+  transition: .9s;
+}
+/* Navbar */
+nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+  opacity: 0.9s;
+  box-shadow: 0 0 10px black;
+}
+nav .navbar-brand {
+  font-size: 20px;
+  color: #fff;
+}
+nav .navbar-nav .nav-link {
+  color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 1rem;
+    transition: .9s;
+    text-decoration: none;
+}
+nav .navbar-nav .nav-link:hover {
+  color: mediumaquamarine;
+  border: 2px solid mediumaquamarine;
+}
+.navbar-toggler {
+  background-color: #fff;
+  box-shadow: 0 0 10px black;
+  border-radius: 50%;
+  padding: 10px;
+  border: none;
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+  transition: .9s;
+}
+.navbar-toggler:hover {
+  background-color: rgb(194, 203, 200);
+  transition: .9s;
+  color: white;
+}
+/* imagen personalizado */
+.logoImg h2 {
+  font-size: 25px;
+  color: rgb(52, 52, 58);
+  cursor: pointer;
+}
+.logoImg h2 img {
+  width: 220px;
+}
+
+/* Carousel personalizado  */
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+    box-shadow: 0 0 15px black;
+    border: 5px solid #4a607c;
+    color: #4a7c7a;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+  border-radius: 50%;
+  padding: 10px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.nav-link h2 {
+  box-shadow: 0 0 35px black;
+}
+/* Categorias */
+.container .logo1 img {
+  width: 75px;
+  margin-right: 10px;
+  text-align: center;
+  box-shadow: 0 0 15px black;
+  border-radius: 50%;
+  background: #4a717c;
+}
+#categoria {
+  margin-top: 80px;
+  padding: 20px;
+  box-shadow: 0 0 15px black;
+  border-radius: 10px;
+  background: #4a717c;
+}
+#categoria .nav-tabs .nav-link {
+  color: white;
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 0 5px;
+  transition: background 0.3s, color 0.3s;
+}
+#categoria .nav-tabs .nav-link.active {
+  background: mediumaquamarine;
+  color: white;
+  border: none;
+}
+#categoria .nav-tabs .nav-link:hover {
+  background: #3cbfae;
+  color: white;
+}
+#categoria .tab-content .tab-pane {
+  margin-top: 20px;
+}
+
+/* Productos - Mate y Calabaza */
+.card {
+  background: #4a717c;
+  border: none;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px black;
+  margin: 10px auto;
+}
+.card-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: white;
+}
+.card-text {
+  font-size: 14px;
+  color: #ddd;
+  margin-bottom: 15px;
+}
+.btn {
+  background: mediumaquamarine;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background: #3cbfae;
+  color: white;
+  text-decoration: none;
+}
+/* Contacto */
+#contacto {
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #4a717c;
+  box-shadow: 0 0 35px black;
+}
+.card-3 {
+  max-width: 700px;
+  margin: auto;
+  border-radius: 15px;
+}
+.invalid-feedback {
+    color: #fff;
+    background: dimgrey;
+    font-size: 13px;
+    margin-bottom: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    margin: 10px; 
+}
+/* Footer */
+footer {
+  background: #243e44;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 0 10px black;
+  margin-top: 20px;
+}
+.color {
+  color: white;
+  text-decoration: none;
+  margin: 0 auto;
+}
+.color:hover {
+  color: mediumaquamarine;
+}
+.fa-brands {
+  font-size: 20px;
+  color: white;
+}
+.fa-brands:hover {
+  color: mediumaquamarine;
+}
