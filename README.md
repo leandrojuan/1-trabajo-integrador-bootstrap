@@ -15,29 +15,29 @@ En el navbar vamos a crear un menú de navegación con enlaces a las secciones c
 
 Después tiene las Imagen personalizado "Tienda Mate" y el logo: 
 
-![Navbar](https://i.postimg.cc/tg0DZN7G/1.png)
+![Navbar](https://i.postimg.cc/Prxxp7NB/1.png)
 
 ### 2 – Carrusel de imágenes y Pie de pagina
 
 Para el carrusel de imágenes puedes usar el componente carrusel de Bootstrap. Aquí tienes cómo implementarlo:
 
-![Carrusel](https://i.postimg.cc/QxhFt9jY/2.png)
+![Carrusel](https://i.postimg.cc/tCWXxHpv/2.png)
 
 Y finalmente el Footer (Pie de página) "Tienda Mate" y con los enlaces a las redes sociales:
 
-![Pie de Pagina](https://i.postimg.cc/D0ymxHpk/3.png)
+![Pie de Pagina](https://i.postimg.cc/RhqWBpt5/3.png)
 
 ### 3 – Card de Categorías
 
 Ahora vamos a mostrar las categorías de productos en tarjetas (cards) o Pestañas. Muy usadas en páginas web o aplicaciones para organizar información en secciones separadas. Permiten manejar la navegación de productos.
 
-![Categorias](https://i.postimg.cc/zDScW61D/4.png)
+![Categorias](https://i.postimg.cc/RVgzfC2R/4.png)
 
 ### 4 – Card de Productos con Modal (Desplazar)
 
 En las tarjetas de productos puedes incluir un modal para mostrar más detalles, ej: Imagen, precio y compra cuando el usuario haga clic en un producto.
 
-![Productos](https://i.postimg.cc/cHdQNDkT/5.png)
+![Productos](https://i.postimg.cc/FRcXMjWF/5.png)
 
 ### 5 – Formulario de Contacto
 
