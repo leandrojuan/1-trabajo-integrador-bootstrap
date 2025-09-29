@@ -29,7 +29,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="/index.html" >Inicio></span ></a>
+              <a class="nav-link" href="/" >Inicio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/#acerca">Quienes Somos</a>
@@ -38,7 +38,7 @@
               <a class="nav-link" href="/categorias.html">Categorias <span class="sr-only"></span ></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/productos.html">Productos</a>
+              <a class="nav-link" href="/categorias.html#productos">Productos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/contactos.html">Contacto</a>
@@ -48,7 +48,7 @@
       </nav>
     </section>
 
-       <div class="container">
+     <div class="container">
       <!-- Bootstrap HTML - Categorias -->
       <section class="text-center" id="categoria">
         <h2><a class="nav-link link" href="/categorias.html">Categorias</a></h2>
@@ -71,7 +71,7 @@
                   <div class="card-body">
                     <h3 class="card-title">Mate Blanco</h3>
                   </div>
-                  <a class="btn btn-info nav-link link" href="/productos.html">Visitar</a>
+                  <a class="btn btn-info nav-link link" href="#productos">Visitar</a>
                 </div>
               </div>
               <div class="col">
@@ -81,7 +81,7 @@
                   <div class="card-body">
                     <h3 class="card-title">Mate Imperial</h3>
                   </div>
-                  <a class="btn btn-info nav-link link" href="/productos.html">Visitar</a>
+                  <a class="btn btn-info nav-link link" href="#productos">Visitar</a>
                 </div>
               </div>
               <div class="col">
@@ -90,7 +90,7 @@
                   <div class="card-body">
                     <h3 class="card-title">Mate Tradicional</h3>
                   </div>
-                  <a class="btn btn-info nav-link link" href="/productos.html">Visitar</a>
+                  <a class="btn btn-info nav-link link" href="#productos">Visitar</a>
                 </div>
               </div>
             </div>
@@ -103,7 +103,7 @@
                   <div class="card-body">
                     <h3 class="card-title">Mate Pezuña</h3>
                   </div>
-                  <a class="btn btn-info nav-link link" href="/productos.html">Visitar</a>
+                  <a class="btn btn-info nav-link link" href="#productos">Visitar</a>
                 </div>
               </div>
               <div class="col">
@@ -112,7 +112,7 @@
                   <div class="card-body">
                     <h3 class="card-title">Mate Carpincho</h3>
                   </div>
-                  <a class="btn btn-info nav-link link" href="/productos.html">Visitar</a>
+                  <a class="btn btn-info nav-link link" href="#productos">Visitar</a>
                 </div>
               </div>
               <div class="col">
@@ -121,7 +121,7 @@
                   <div class="card-body">
                     <h3 class="card-title">Mate Castor</h3>
                   </div>
-                  <a class="btn btn-info nav-link link" href="/productos.html">Visitar</a>
+                  <a class="btn btn-info nav-link link" href="#productos">Visitar</a>
                 </div>
               </div>
             </div>
@@ -131,17 +131,411 @@
       <!-- Fin HTML - Categorias -->
     </div>
 
-    <!-- Bootstrap HTML - Pie de Pagina -->
+      <br />
+
+      <!-- Bootstrap HTML - Productos -->
+      <div class="container text-center">
+        <section id="productos">
+          <h2><a class="nav-link link" href="#productos">Productos</a></h2>
+          <div class="row">
+            <h5><a class="nav-link">Calabaza Ceramica</a></h5>
+            <div class="col-lg">
+              <div class="card text-center">
+                <img class="card-img-top" src="img/mates1.png" alt="Mate Blanco" />
+                <div class="card-body">
+                  <h3 class="card-title">Mate Blanco</h3>
+                  <p class="card-text">$59.400</p>
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#Modal1">Comprar</button>
+                  <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="ModalLabel1" aria-hidden="true" >
+                    <!-- Modal de producto (solo estructura HTML) -->
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h6 class="modal-title text-center" id="ModalLabel1"> Comprar Productos </h6>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" ></button>
+                        </div>
+                        <div class="modal-body">
+                          <form action="#">
+                            <div class="form-floating">
+                              <p>Con este Mate Blanco, vas a disfrutar de un producto que combina la tradición argentina con detalles modernos que hacen la diferencia. Su resistencia y acabado permiten un uso prolongado sin perder la calidad ni el estilo.</p>
+                            </div>
+                            <div class="form-floating">
+                              <select id="select1" class="form-select">
+                                <option value="mate blanco">Mate Blanco</option>
+                              </select>
+                              <label for="select1">Producto:</label>
+                            </div>
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" > Cerrar </button>
+                          <button type="button" class="btn btn-success"> Enviar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg">
+              <div class="card">
+                <img class="card-img-top" src="img/mates2.png" alt="Mate Imperial" />
+                <div class="card-body">
+                  <h3 class="card-title">Mate Imperial</h3>
+                  <p class="card-text">$62.100</p>
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#Modal2">Comprar</button>
+                  <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="ModalLabel2" aria-hidden="true" >
+                    <!-- Modal de producto (solo estructura HTML) -->
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h6 class="modal-title text-center" id="ModalLabel2">Comprar Productos</h6>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <form action="#">
+                            <div class="form-floating">
+                              <p>Nuestro Mate Imperial tiene una combinación perfecta y un toque tallado de ceramica moderna que no puede faltar en tu colección. Este mate ofrece una experiencia única para disfrutar de tu infusión preferida con estilo y durabilidad.</p>
+                            </div>
+                            <div class="form-floating">
+                              <select id="select2" class="form-select">
+                                <option value="mate imperial">Mate Imperial</option>
+                              </select>
+                              <label for="select2">Producto:</label>
+                            </div>
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                           type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Cerrar
+                          </button>
+                          <button type="button" class="btn btn-success">
+                            Enviar
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="img/mates3.png"
+                  alt="Mate Tradicional"
+                />
+                <div class="card-body">
+                  <h3 class="card-title">Mate Tradicional</h3>
+                  <p class="card-text">$61.000</p>
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#Modal3"
+                  >
+                    Comprar
+                  </button>
+
+                  <div
+                    class="modal fade"
+                    id="Modal3"
+                    tabindex="-1"
+                    aria-labelledby="ModalLabel3"
+                    aria-hidden="true"
+                  >
+                    <!-- Modal de producto (solo estructura HTML) -->
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h6 class="modal-title text-center" id="ModalLabel3">
+                            Comprar Productos
+                          </h6>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <form action="#">
+                            <div class="form-floating">
+                              <p>Un Mate Tradicional con un ancla inclusivo, revestidos de cerámica con un diseño hermoso, vienen con bombilla que acompaña el diseño de cada mate</p>
+                            </div>
+                            <div class="form-floating">
+                              <select id="select3" class="form-select">
+                                <option value="mate tradicional">
+                                  Mate Tradicional
+                                </option>
+                              </select>
+                              <label for="select3">Producto:</label>
+                            </div>
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Cerrar
+                          </button>
+                          <button type="button" class="btn btn-success">
+                            Enviar
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            </div>
+            <h5><a class="nav-link">Calabaza Pampa</a></h5>
+            <div class="row">
+            <div class="col-lg">
+              <div class="card text-center">
+                <img
+                  class="card-img-top"
+                  src="img/mates4.jpg"
+                  alt="Mate Pezuña"
+                />
+                <div class="card-body">
+                  <h3 class="card-title">Mate Pezuña</h3>
+                  <p class="card-text">$75.600</p>
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#Modal4"
+                  >
+                    Comprar
+                  </button>
+
+                  <div
+                    class="modal fade"
+                    id="Modal4"
+                    tabindex="-1"
+                    aria-labelledby="ModalLabel4"
+                    aria-hidden="true"
+                  >
+                    <!-- Modal de producto (solo estructura HTML) -->
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h6 class="modal-title text-center" id="ModalLabel4">
+                            Comprar Productos
+                          </h6>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <form action="#">
+                            <div class="form-floating">
+                              <p>Ideal para disfrutar de tu infusión preferida con un toque rústico y auténtico. Este Mate Pezuña, con su diseño distintivo en forma de pezuña y su interior de calabaza, añade carácter a tus momentos de mateada.</p>
+                            </div>
+                            <div class="form-floating">
+                              <select id="select4" class="form-select">
+                                <option value="mate pezuña">Mate Pezuña</option>
+                              </select>
+                              <label for="select4">Producto:</label>
+                            </div>
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Cerrar
+                          </button>
+                          <button type="button" class="btn btn-success">
+                            Enviar
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="img/mates5.jpeg"
+                  alt="Mate Carpincho"
+                />
+                <div class="card-body">
+                  <h3 class="card-title">Mate Carpincho</h3>
+                  <p class="card-text">$64.600</p>
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#Modal5"
+                  >
+                    Comprar
+                  </button>
+
+                  <div
+                    class="modal fade"
+                    id="Modal5"
+                    tabindex="-1"
+                    aria-labelledby="ModalLabel5"
+                    aria-hidden="true"
+                  >
+                    <!-- Modal de producto (solo estructura HTML) -->
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h6 class="modal-title text-center" id="ModalLabel5">
+                            Comprar Productos
+                          </h6>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <form action="#">
+                            <div class="form-floating">
+                              <p>Descubrí el Mate Carpicho, una obra maestra que fusiona la tradición argentina con un diseño impresionante. Este mate es ideal para quienes buscan disfrutar de su infusión con un toque de distinción y elegancia.</p>
+                            </div>
+                            <div class="form-floating">
+                              <select id="select5" class="form-select">
+                                <option value="mate carpincho">
+                                  Mate Carpincho
+                                </option>
+                              </select>
+                              <label for="select5">Producto:</label>
+                            </div>
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Cerrar
+                          </button>
+                          <button type="button" class="btn btn-success">
+                            Enviar
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="img/mates6.jpg"
+                  alt="Mate Castor"
+                />
+                <div class="card-body">
+                  <h3 class="card-title">Mate Castor</h3>
+                  <p class="card-text">$69.200</p>
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#Modal6"
+                  >
+                    Comprar
+                  </button>
+
+                  <div
+                    class="modal fade"
+                    id="Modal6"
+                    tabindex="-1"
+                    aria-labelledby="ModalLabel6"
+                    aria-hidden="true"
+                  >
+                    <!-- Modal de producto (solo estructura HTML) -->
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h6 class="modal-title text-center" id="ModalLabel6">
+                            Comprar Productos
+                          </h6>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <form action="#">
+                            <div class="form-floating">
+                              <p>Eleva tu ritual del mate con este exclusivo Mate Castor, una combinación perfecta de durabilidad y estilo. Fabricado de alta calidad y forrado en cuero genuino, este mate ofrece una experiencia única que refleja la tradición y la elegancia en cada cebada.</p>
+                            </div>
+                            <div class="form-floating">
+                              <select id="select6" class="form-select">
+                                <option value="mate castor">
+                                  Mate Castor
+                                </option>
+                              </select>
+                              <label for="select6">Producto:</label>
+                            </div>
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Cerrar
+                          </button>
+                          <button type="button" class="btn btn-success">
+                            Enviar
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </section>
+      </div>
+      <!-- Fin HTML - Productos -->
+
+        <br />
+
+            <!-- Bootstrap HTML - Pie de Pagina -->
     <footer class="bg-dark text-white py-4 text-center">
       <div class="container">
         <div class="row">
           <ul class="col list-unstyled">
             <li class="font-weight-bold textuppercase">Tienda Mate</li>
-            <li><a href="index.html" class="color">Inicio</a></li> <!-- Personalizado - color -->
-            <li><a href="index.html" class="color">Quienes Somos</a></li>
-            <li><a href="categorias.html" class="color">Categorias</a></li>
-            <li><a href="productos.html" class="color">Productos</a></li>
-            <li><a href="contactos.html" class="color">Contacto</a></li>
+            <li><a href="/" class="color">Inicio</a></li> <!-- Personalizado - color -->
+            <li><a href="/#acerca" class="color">Quienes Somos</a></li>
+            <li><a href="/categorias.html" class="color">Categorias</a></li>
+            <li><a href="/categorias.html#productos" class="color">Productos</a></li>
+            <li><a href="/contactos.html" class="color">Contacto</a></li>
           </ul>
 
           <ul class="col list-unstyled">
@@ -164,8 +558,6 @@
       </div>
     </footer>
     <!-- Fin HTML - Pie de Pagina -->
-
-    
 
     <!-- Bootstrap JS -->
     <script
